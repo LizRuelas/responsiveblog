@@ -1,0 +1,179 @@
+/* Inserta tu codigo aqui */
+* {
+	box-sizing: border-box;
+}
+.menubars {
+display: none;
+}
+.bg-purple {
+	background-color: #1C1821;
+}
+.bg-lila {
+	background-color: #2D2735;
+}
+.bg-img {
+	background-image: url(../image/header-image.jpg);
+	padding: 130px;
+	background-repeat: no-repeat;
+  background-size: cover;
+}
+.p-b {
+	padding-bottom: 5%;
+}
+.p-t {
+	padding-top: 5%;
+}
+.m-b {
+	margin-bottom: 5%;
+}
+.text-center {
+	text-align: center;
+}
+.spring {
+	padding: 30px;
+}
+.spring h1 {
+		margin-bottom: 20px;
+}
+.text-white {
+	color: white;
+}
+.text-orange {
+	color: #F7BA6A;
+}
+.fs-i {
+		font-style: italic;
+}
+.font-f {
+	font-family: 'Courgette';
+}
+.font-fos {
+	font-family: 'Open Sans';
+}
+.menu2 a {
+	margin:15px;
+}
+a {
+	text-decoration: none;
+	color: white;
+}
+a:hover {
+	color: #F7BA6A;
+}
+span {
+	color: white;
+}
+.menu {
+	float: right;
+	padding:50px 0;
+}
+.menu a {
+	margin: 20px;
+}
+.img-4 {
+	width: 100%;
+	margin:auto;
+	display: flex;
+}
+.box-img {
+	margin:2%;
+}
+
+.parrafo {
+	padding: 20px 30px;
+}
+.menu3 {
+	margin: 10px 0;
+}
+.br-7 {
+	border-radius: 7px;
+}
+.form {
+	padding: 30px;
+}
+.search {
+	padding: 20px;
+	width: 100%;
+}
+.redes {
+	border-radius: 50%;
+	padding: 5%;
+	margin-right: 20px;
+}
+.mt-20 {
+	margin-top: 20px;
+}
+.redessociales i:hover {
+		background-color: white;
+}
+.text-gray {
+	color: #25202B;
+}
+.piepagina {
+	padding: 50px 0;
+}
+.articulo{
+
+}
+/* Responsive */
+
+@media screen and (max-width : 920px) {
+		.col-6 img {
+			margin: 40px 0;
+			width: 100%;
+		}
+		.menu {
+			display: none;
+		}
+		.menubars {
+			display: block;
+			color: white;
+			float: right;
+			font-size: 300%;
+			margin: 60px 50px;
+			cursor: pointer;
+		}
+		.menubars:hover {
+			color: orange;
+		}
+		.bg-img {
+			padding: 30px;
+		}
+		.img-4 {
+			width: 100%;
+		}
+		
+}
+
+@media screen and (max-width: 600px) {
+		.col-4, .col-7, .col-5 {
+			width: 100%;
+		}
+		.col-6 img {
+			margin: 40px 0;
+			width: 100%;
+		}
+		.menu {
+			display: none;
+		}
+		.menubars {
+			display: block;
+			color: white;
+			float: right;
+			font-size: 300%;
+			margin: 60px 50px;
+			cursor: pointer;
+		}
+		.menubars:hover {
+			color: orange;
+		}
+		.bg-img {
+			padding: 30px;
+		}
+		.img-4 {
+			width: 100%;
+		}
+		.col-5 {
+			display: none;
+		}
+}
